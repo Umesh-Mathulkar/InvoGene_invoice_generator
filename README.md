@@ -3,9 +3,7 @@
 Please Click here to see Live Demo [Invogene](https://invogene.netlify.app/).
 
 ![invogene](https://ibb.co/ByLKfvM)
-https://ibb.co/N2bgxnj
-https://ibb.co/ZLw9g0M
-https://ibb.co/107CHNP
+
 
 ## Available Scripts
 
