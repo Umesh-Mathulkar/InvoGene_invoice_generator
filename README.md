@@ -30,7 +30,7 @@ To run the invoice generator locally on your machine, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/invoice-generator.git
+git clone https://github.com/Umesh-Mathulkar/InvoGene_invoice_generator
 
 
 
@@ -48,7 +48,6 @@ npm start
 ## Usage
 
 1. Fill in the required details for creating a new invoice, such as client information, item descriptions, quantities, and prices.
-2. Click the "Generate Invoice" button to calculate the total amount and taxes.
-3. Preview the generated invoice in the PDF format.
-4. Edit and delete existing invoices as needed.
+2. Click the "Review Invoice" button to View or Print.
+3. delete existing invoices as needed.
 
