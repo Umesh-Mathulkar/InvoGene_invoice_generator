@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Deployed Link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Please Click here to see Live Demo [Invogene](https://invogene.netlify.app/).
+
+![invogene](https://ibb.co/ByLKfvM)
+https://ibb.co/N2bgxnj
+https://ibb.co/ZLw9g0M
+https://ibb.co/107CHNP
 
 ## Available Scripts
 
