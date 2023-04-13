@@ -1,38 +1,124 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+body{
+    background: linear-gradient(#e8f9fd 40%, #ede38a);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.leftC{
+  border: 1px solid rgb(213, 212, 212);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.leftC:hover{
+  background-color: aliceblue;
+  transition-duration: 1s;
+}
+.rightC{
+  border: 1px solid rgb(222, 219, 219);
+  border-radius: 10px;
+  background-color: white;
+}
+.rightC:hover{
+  background-color: aliceblue;
+  transition-duration: 1s;
+}
+
+.cont{
+  /* border: 1px solid rgb(196, 194, 194); */
+  border-radius: 10px;
+  padding: 3%;
+  margin-top: 3%;
+  background-color: #c2dde6;
+}
+.head{
   text-align: center;
+  border: 1px solid black;
+  background-color: #393f4d;
+  color: #d4d4dc;
+}
+.head:hover{
+  color: #ede38a;
+  transition-duration: 1s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col-lg-6 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftC {
+  padding: 10px;
+}
+
+.inn input{
+  width: 60px;
+}
+.inn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: end;
+  
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(228, 228, 228);
+}
+.due input{
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.btn-success{
+  width: 30%;
+  text-align: center; 
+  padding: 1.5%;
+  margin: 2%;
+  -webkit-animation: narrow 1s;
+}
+button:hover{
+  
+  -webkit-animation: wide 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes wide{
+  from{
+    width: 30%;
   }
-  to {
-    transform: rotate(360deg);
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes narrow{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 30%;
+  }
+}
+
+
+@media print {
+  .hide{
+    display: none;
+  }  
+  input{
+    border: none;
   }
 }
